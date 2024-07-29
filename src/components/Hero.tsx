@@ -15,10 +15,10 @@ const Hero = () => {
       text: "am",
     },
     {
-      text: "Shivam",
+      text: "Rihan",
     },
     {
-      text: "Bhadani,",
+      text: "Mulani,",
     },
     {
       text: "a",

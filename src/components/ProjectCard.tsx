@@ -17,7 +17,7 @@ export default function ProjectCard({
   description,
   thumbnail,
   githubLink,
-  demoLink,
+  demoLink, 
 }: IProjectCard) {
   return (
     <CardContainer className="inter-var">

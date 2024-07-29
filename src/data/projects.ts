@@ -1,47 +1,45 @@
-import cfstress from "@/assets/projectImages/cfstress.png"
-import codegeass from "@/assets/projectImages/codegeass.png"
-import smartskill_studio from "@/assets/projectImages/smartskill_studio.png"
-import bookstation from "@/assets/projectImages/bookstation.png"
-import blog from "@/assets/projectImages/blog.png"
-import chatbot from "@/assets/projectImages/chatbot.png"
+import Paytm from "../assets/projectImages/Paytm.png"
+import ExpTracker from "@/assets/projectImages/ExpTracker.png"
+import InvoiceGen from "@/assets/projectImages/InvoiceGen.png"
+import PDFReader from "@/assets/projectImages/PDFReader.png"
+
 
 const projects = [
   {
-    title: "CF Stress",
-    description: "Community driven, highly customizable, no-code tool to stress test Codeforces problems. Frontend - React, Backend - Golang, Database - MongoDB",
-    thumbnail: cfstress,
-    githubLink: "https://github.com/shivam-bhadani/CF-Stress-Backend"
+    title: "Paytm wallet",
+    description: `• Built a wallet application with Next.js and Express, enabling users to perform demo banking transactions and manage their accounts 
+    • Gained insights into banking APIs, transaction handling, and database locking mechanisms while utilizing
+ PostgreSQL, Prisma ORM, and Tailwind CSS.`,
+    thumbnail: Paytm,
+    githubLink: "https://github.com/Rihanmulani12/paytm"
   },
   {
-    title: "Code Geass",
-    description: "Developed a high-performing coding website, enabling users to improve algorithmic problem-solving skills. Frontend - React, Backend - Nodejs, Database - MongoDB",
-    thumbnail: codegeass,
-    githubLink: "https://github.com/shivam-bhadani/Code-Geass-Backend"
+    title: " Expense Tracker",
+    description: `• Created an expense tracker application using Next.js and Clerk for secure user authentication, allowing users to
+ manage their expenses and income.
+ • Implemented database management with Prisma ORM and PostgreSQL, featuring functionalities to list and update
+ expenses for efficient financial tracking.`,
+    thumbnail: ExpTracker,
+    githubLink: "https://github.com/Rihanmulani12/ExpTrack"
   },
   {
-    title: "SmartSkill Studio",
-    description: "Developed backend of an e-learning platform using Django REST Framework for course creation and enrollment",
-    thumbnail: smartskill_studio,
-    githubLink: "https://github.com/shivam-bhadani/SmartSkill-Studio"
+    title: "Invoice Generation Web Application",
+    description: ` • Developed a web application using ReactJS, JavaScript, HTML, and CSS to automate invoice generation for
+ Mujawar-Roadways.
+ • Improved efficiency and facilitated the transition from paper-based invoicing to a digital system`,
+    thumbnail: InvoiceGen,
+    githubLink: "https://github.com/Rihanmulani12/Mujawar-Roadways"
   },
   {
-    title: "The Book Station",
-    description: "Developed a secured well-versed platform to buy and sell used book. Frontend - HTML, CSS, JS, Backend - Nodejs, Database - MongoDB",
-    thumbnail: bookstation,
-    githubLink: "https://github.com/shivam-bhadani/The-Book-Station"
-  },
-  {
-    title: "Blog Website",
-    description: "Built Blog website with secure authenticated admin pannel where admin can perform CRUD operation. Frontend - HTML, CSS, JS. Backend - Nodejs. Database - MongoDB",
-    thumbnail: blog,
-    githubLink: "https://github.com/shivam-bhadani/Blog-Website"
-  },
-  {
-    title: "Realtime Chatbot",
-    description: "Developed Realtime Chatbot that performs client queries and integrated Socket-io in chat server. Frontend - HTML, CSS, JS. Backend - Nodejs. Database - MongoDB",
-    thumbnail: chatbot,
-    githubLink: "https://github.com/shivam-bhadani/Chatbot"
-  },
+    title: ` PDF Reader with Google Gemini AI`,
+    description: ` • Built a PDF reader integrating Google Gemini AI to enable users to upload and query PDF content, using Python and
+    FastAPI for the backend.
+ • Designed a responsive frontend with React.js to provide a seamless user experience for interacting with PDF
+ documents`,
+    thumbnail: PDFReader,
+    githubLink: "https://github.com/Rihanmulani12/mypdfreader"
+  }
+  
 ]
 
 export default projects

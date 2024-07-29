@@ -1,6 +1,6 @@
 import { Box } from "@/components/ui/moving-border";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 
 const Contact = () => {
@@ -21,11 +21,12 @@ const Contact = () => {
               <div>
                 <span className="font-semibold">Email:</span>{" "}
                 <a
-                  href="mailto:shivambhadani19@gmail.com"
+                  href="mailto:rihanmulani18@gmail.com"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-700 dark:text-blue-200"
                 >
-                  shivambhadani19@gmail.com
+                  rihanmulani18@gmail.com
                 </a>
               </div>
             </li>
@@ -36,26 +37,12 @@ const Contact = () => {
               <div>
                 <span className="font-semibold">DM on Twitter:</span>{" "}
                 <a
-                  href="https://x.com/shivambhadani_"
+                  href="https://x.com/rihan_mulani"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-700 dark:text-blue-200"
                 >
-                  @shivambhadani_
-                </a>
-              </div>
-            </li>
-            <li className="mt-6 flex items-center gap-3">
-              <div>
-                <FaInstagram size="1.5rem" />
-              </div>
-              <div>
-                <span className="font-semibold">DM on Instagram:</span>{" "}
-                <a
-                  href="https://www.instagram.com/shivambhadani_/"
-                  target="_blank"
-                  className="text-blue-700 dark:text-blue-200"
-                >
-                  @shivambhadani_
+                  @rihan_mulani
                 </a>
               </div>
             </li>
@@ -64,8 +51,7 @@ const Contact = () => {
                 <ImLocation size="1.5rem" />
               </div>
               <div>
-                <span className="font-semibold">Address:</span> Marathahalli,
-                Bengaluru, PinCode - 560037, Karnataka, India
+                <span className="font-semibold">Address:</span> Kolhapur - 416122, Maharashtra, India
               </div>
             </li>
           </ul>

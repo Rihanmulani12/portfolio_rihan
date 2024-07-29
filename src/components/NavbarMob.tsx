@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import Link from "next/link";
-import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "@/components/Icons";
+import { GithubIcon, LinkedInIcon, TwitterIcon } from "@/components/Icons";
 
 interface INavItem {
   name: string;
@@ -143,7 +143,7 @@ const NavbarMob = ({ navItems }: { navItems: INavItem[] }) => {
                   className="list-none flex justify-center gap-x-4"
                 >
                   <motion.a
-                    href="https://github.com/shivam-bhadani"
+                    href="https://github.com/Rihanmulani12"
                     target="_blank"
                     whileHover={{ y: -6 }}
                     whileTap={{ scale: 1 }}
@@ -151,7 +151,7 @@ const NavbarMob = ({ navItems }: { navItems: INavItem[] }) => {
                     <GithubIcon className="w-6" />
                   </motion.a>
                   <motion.a
-                    href="https://www.linkedin.com/in/shivambhadani/"
+                    href="https://www.linkedin.com/in/rihan-mulani/"
                     target="_blank"
                     whileHover={{ y: -6 }}
                     whileTap={{ scale: 1 }}
@@ -159,21 +159,14 @@ const NavbarMob = ({ navItems }: { navItems: INavItem[] }) => {
                     <LinkedInIcon className="w-6" />
                   </motion.a>
                   <motion.a
-                    href="https://x.com/shivambhadani_"
+                    href="https://x.com/rihan_mulani"
                     target="_blank"
                     whileHover={{ y: -6 }}
                     whileTap={{ scale: 1 }}
                   >
                     <TwitterIcon className="w-6" />
                   </motion.a>
-                  <motion.a
-                    href="https://www.instagram.com/shivambhadani_/"
-                    target="_blank"
-                    whileHover={{ y: -6 }}
-                    whileTap={{ scale: 1 }}
-                  >
-                    <InstagramIcon className="w-8 -mt-1" />
-                  </motion.a>
+                
                 </motion.div>
               </motion.div>
             </MotionConfig>

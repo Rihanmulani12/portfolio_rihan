@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
@@ -14,8 +14,8 @@ const inter = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Rihan Mualni",
-  description: "Rihan Mualni, Software Developer"
+  title: "Rihan Mulani",
+  description: "Rihan Mulani, Software Developer"
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col min-h-[100%]`}>
+      <body className={`${inter.variable} flex flex-col min-h-[100%]`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -34,7 +34,7 @@ export default function RootLayout({
         >
           <SpotlightPreview />
           <Navbar />
-          <div>{children}</div>
+          <main className="flex-grow">{children}</main>
           <Footer />
           <BackgroundBeams />
         </ThemeProvider>

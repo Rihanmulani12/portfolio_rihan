@@ -14,7 +14,7 @@ const NavbarDesk = ({ navItems }: { navItems: INavItem[] }) => {
     <div className="w-full px-32 py-8 font-medium flex items-center justify-between">
       <div>
         {navItems.map((item) => (
-          <CustomLink key={item.link} name={item.name} link={item.link} />
+          <CustomLink key={item.name} name={item.name} link={item.link} />
         ))}
       </div>
       <nav className="flex justify-center items-center flex-wrap gap-8">
@@ -25,7 +25,7 @@ const NavbarDesk = ({ navItems }: { navItems: INavItem[] }) => {
           whileHover={{ y: -6 }}
           whileTap={{ scale: 1 }}
         >
-          <GithubIcon className="w-6" />
+          <GithubIcon className="w-6 h-6" />
         </motion.a>
         <motion.a
           href="https://www.linkedin.com/in/rihan-mulani/"
@@ -34,7 +34,7 @@ const NavbarDesk = ({ navItems }: { navItems: INavItem[] }) => {
           whileHover={{ y: -6 }}
           whileTap={{ scale: 1 }}
         >
-          <LinkedInIcon className="w-6" />
+          <LinkedInIcon className="w-6 h-6" />
         </motion.a>
         <motion.a
           href="https://x.com/rihan_mulani"
@@ -43,11 +43,11 @@ const NavbarDesk = ({ navItems }: { navItems: INavItem[] }) => {
           whileHover={{ y: -6 }}
           whileTap={{ scale: 1 }}
         >
-          <TwitterIcon className="w-6" />
+          <TwitterIcon className="w-6 h-6" />
         </motion.a>
       </nav>
     </div>
   );
-}
+};
 
 export default NavbarDesk;
